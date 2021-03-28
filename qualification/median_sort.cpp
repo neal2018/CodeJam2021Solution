@@ -33,7 +33,7 @@ int main(int, char **) {
             while (left <= right) {
                 if (left == right) {
                     // if the same, extend a bit to identify the insertion index
-                    // can not gain 1.58 bits from this query
+                    // can not gain 1.58 bits information from this query
                     if (left == 0) {
                         right++;
                     } else {
